@@ -24,7 +24,7 @@ public class Garland32 {
                     lampOnOff();
                     break;
                 case 4:
-                    OnOff();
+                    onOff();
                     break;
             }
         }
@@ -67,7 +67,7 @@ public class Garland32 {
         }
     }
 
-    public static void OnOff() {
+    public static void onOff() {
         int i = random();
         if (i > 0 && i < 33) {
             System.out.println("Включена");
