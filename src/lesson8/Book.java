@@ -15,6 +15,14 @@ public class Book implements Printable {
         this.name = name;
     }
 
+    public static void printBook(Printable[] printable) {
+        for (Printable printable1 : printable){
+            if (printable1  instanceof  Book);
+            Book book1 = (Book) printable1;
+            book1.print();
+        }
+    }
+
     @Override
     public void print() {
         System.out.println("Печатаю " + name);
@@ -28,5 +36,7 @@ public class Book implements Printable {
         for (Printable printable : massive) {
             printable.print();
         }
+        printBook(massive);
+        Magazine.printMagazine(massive);
     }
 }

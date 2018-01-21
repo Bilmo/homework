@@ -15,6 +15,16 @@ public class Magazine implements Printable {
         this.name = name;
     }
 
+    public static void printMagazine(Printable[] printable) {
+        for (Printable printable1 : printable) {
+            if (printable1 instanceof Magazine) {
+                Magazine magazine1 = (Magazine) printable1;
+                magazine1.print();
+            }
+        }
+
+    }
+
     @Override
     public void print() {
         System.out.println("Штампую " + name);
