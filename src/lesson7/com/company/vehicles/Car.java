@@ -4,26 +4,26 @@ import lesson7.com.company.details.Engine;
 import lesson7.com.company.professions.Driver;
 
 public class Car {
-    private String model;
+    private String marka;
     private String carClass;
     private double weight;
     private Driver driver;
     private Engine engine;
 
-    public Car(String model, String carClass, double weight, Driver driver, Engine engine) {
-        this.model = model;
+    public Car(String marka, String carClass, double weight, Driver driver, Engine engine) {
+        this.marka = marka;
         this.carClass = carClass;
         this.weight = weight;
         this.driver = driver;
         this.engine = engine;
     }
 
-    public String getModel() {
-        return model;
+    public String getMarka() {
+        return marka;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setMarka(String marka) {
+        this.marka = marka;
     }
 
     public String getCarClass() {
@@ -58,27 +58,61 @@ public class Car {
         this.engine = engine;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "marka='" + marka + '\'' +
+                ", carClass='" + carClass + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        Engine engine1 = new Engine();
+        Driver driver1 = new Driver();
+        Car car = new Car("Chevrolet", "Sedan", 9.3, driver1, engine1);
+        Lorry lorry = new Lorry("Chevrolet", "Sedan", 9.3, driver1, engine1, 333);
+        SportCar sportCar = new SportCar("Chevrolet", "Sedan", 9.3, driver1, engine1, 777);
+        car.start();
+        car.stop();
+        car.turnLeft();
+        car.turnRight();
+        car.printInfo();
+        lorry.start();
+        lorry.stop();
+        lorry.turnLeft();
+        lorry.turnRight();
+        lorry.printInfo();
+        System.out.println("Грузоподьемность - " + lorry);
+        sportCar.start();
+        sportCar.stop();
+        sportCar.turnLeft();
+        sportCar.turnRight();
+        sportCar.printInfo();
+        System.out.println("Скорость - " + sportCar);
+    }
+
     public void start() {
-        System.out.println("Старт!");
+        System.out.println("Поехали");
     }
 
     public void stop() {
-        System.out.println("Стоп!");
+        System.out.println("Останавливаемся");
     }
 
     public void turnRight() {
-        System.out.println("Направо!");
+        System.out.println("Поворот направо");
     }
 
     public void turnLeft() {
-        System.out.println("Налево!");
+        System.out.println("Поворот налево");
     }
 
     public void printInfo() {
-        System.out.println("Модель - " + getModel());
+        System.out.println("Модель - " + getMarka());
         System.out.println("Класс - " + getCarClass());
         System.out.println("Вес - " + getWeight());
         System.out.println("Водитель - " + getDriver());
-        System.out.println("Мотор - " + getEngine());
+        System.out.println("Двигатель - " + getEngine());
     }
 }

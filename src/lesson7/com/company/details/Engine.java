@@ -1,19 +1,22 @@
 package lesson7.com.company.details;
 
 public class Engine {
-    private double power;
-    private String company;
+    private int power = 444;
+    private String company = "Siemens";
 
-    public Engine(double power, String company) {
+    public Engine(int power, String company) {
         this.power = power;
         this.company = company;
     }
 
-    public double getPower() {
+    public Engine() {
+    }
+
+    public int getPower() {
         return power;
     }
 
-    public void setPower(double power) {
+    public void setPower(int power) {
         this.power = power;
     }
 
@@ -23,5 +26,13 @@ public class Engine {
 
     public void setCompany(String company) {
         this.company = company;
+    }
+
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "power=" + power +
+                ", company='" + company + '\'' +
+                '}';
     }
 }
