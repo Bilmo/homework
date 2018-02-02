@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2670ebb0-7588-4861-9c83-d43d88fc998d" name="Default" comment="hw">
+    <list default="true" id="2670ebb0-7588-4861-9c83-d43d88fc998d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/ex3/Scan2.java" afterPath="$PROJECT_DIR$/src/lesson3/ex3/Scan2.java" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/ex1/TernaryMod.java" afterPath="$PROJECT_DIR$/src/lesson4/ex1/TernaryMod.java" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/ex2/Garland32.java" afterPath="$PROJECT_DIR$/src/lesson4/ex2/Garland32.java" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/ex3/Argument.java" afterPath="$PROJECT_DIR$/src/lesson4/ex3/Argument.java" />
+      <change beforePath="$PROJECT_DIR$/src/lesson5/ex2/Days.java" afterPath="$PROJECT_DIR$/src/lesson5/ex2/Days.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,142 +20,13 @@
     <favorites_list name="homework33" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fruit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson9/Fruit.java">
+    <leaf>
+      <file leaf-file-name="Days.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesson5/ex2/Days.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-              <folding>
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FruitDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson9/FruitDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="352">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CircleRPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson9/CircleRPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-              <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1400#1401#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Argument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson4/ex3/Argument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TernaryMod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson4/ex1/TernaryMod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Garland32.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson4/ex2/Garland32.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-              <folding>
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2266#2267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scan2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lesson3/ex3/Scan2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson9/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="26" />
-              <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pear.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson9/Pear.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-              <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Apricot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson9/Apricot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -225,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/lesson12/JavaVer.java" />
         <option value="$PROJECT_DIR$/src/lesson13/ResourcDemo.java" />
         <option value="$PROJECT_DIR$/src/lesson8/Vet.java" />
-        <option value="$PROJECT_DIR$/src/lesson5/ex2/Days.java" />
         <option value="$PROJECT_DIR$/src/lesson9/Apple.java" />
         <option value="$PROJECT_DIR$/src/lesson9/Apricot.java" />
         <option value="$PROJECT_DIR$/src/lesson9/Pear.java" />
@@ -236,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/lesson4/ex1/TernaryMod.java" />
         <option value="$PROJECT_DIR$/src/lesson4/ex2/Garland32.java" />
         <option value="$PROJECT_DIR$/src/lesson3/ex3/Scan2.java" />
+        <option value="$PROJECT_DIR$/src/lesson5/ex2/Days.java" />
       </list>
     </option>
   </component>
@@ -267,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,55 +151,14 @@
               <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework111" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework111" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework111" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
               <item name="ex2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework111" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework111" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework111" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework111" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework111" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="homework111" type="b2602c69:ProjectViewProjectNode" />
@@ -345,8 +170,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -703,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517384192413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hw">
+      <created>1517566998099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517566998099</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -712,18 +546,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2698192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2698192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13157895" sideWeight="0.49331105" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13286264" sideWeight="0.49331105" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14599092" sideWeight="0.50668895" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -734,6 +567,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -750,17 +584,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14599092" sideWeight="0.50668895" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32545203" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27257526" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2698192" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27121" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14762516" sideWeight="0.49331105" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13157895" sideWeight="0.49331105" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1031,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson5/ex2/Days.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson8/Flower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -1056,45 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson9/Apricot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson9/Pear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson9/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,6 +962,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson9/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson9/Pear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson9/Apricot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson5/ex2/Days.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>

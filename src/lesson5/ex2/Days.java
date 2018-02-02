@@ -14,10 +14,8 @@ public class Days {
                 day = "Четверг";
             } else if ("5".equals(str)) {
                 day = "Пятница";
-            } else if ("6".equals(str)) {
-                day = "Выходной";
-            } else if ("7".equals(str)) {
-                day = "Выходной";
+            } else if ("6".equals(str) || "7".equals(str)) {
+                day = "выходной";
             }
             System.out.println("Сегодня " + day);
         }
