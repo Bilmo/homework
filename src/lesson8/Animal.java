@@ -1,14 +1,19 @@
 package lesson8;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Animal {
+public class Animal implements Serializable, Comparable<Animal> {
     private String food;
     private String location;
 
     public Animal(String food, String location) {
         this.food = food;
         this.location = location;
+    }
+
+
+    public Animal() {
     }
 
     public String getFood() {
@@ -51,14 +56,19 @@ public class Animal {
     }
 
     public void makeNoise() {
-        System.out.println("Издает звук");
+        System.out.println("Делает звук");
     }
 
     public void eat() {
-        System.out.println("Поглощает");
+        System.out.println("Ест");
     }
 
     public void sleep() {
         System.out.println("Спит");
+    }
+
+    @Override
+    public int compareTo(Animal o) {
+        return food.compareTo(o.food);
     }
 }

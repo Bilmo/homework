@@ -7,6 +7,12 @@ public abstract class Fruit {
     private double weight;
     private double price;
 
+    public void printManufacturerInfo () {
+        System.out.println("Made in Ukraine");
+    }
+
+    public abstract void fruitsPrice();
+
     public Fruit(double weight, double price) {
         this.weight = weight;
         this.price = price;
@@ -50,10 +56,4 @@ public abstract class Fruit {
                 ", price=" + price +
                 '}';
     }
-
-    public void printManufacturerInfo() {
-        System.out.println("Made in Ukraine");
-    }
-
-    public abstract void priceFruit();
 }

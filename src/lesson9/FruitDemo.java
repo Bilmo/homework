@@ -15,11 +15,11 @@ public class FruitDemo {
                 + apple2.getPrice() + apple3.getPrice()));
         System.out.println("Стоимость отдельно проданых груш - " + (pear1.getPrice() + pear2.getPrice()));
         System.out.println("Стоимость отдельно проданых абрикос - " + (apricot1.getPrice() + apricot2.getPrice()));
-        apple1.priceFruit();
+        apple1.fruitsPrice();
         apple1.printManufacturerInfo();
-        pear1.priceFruit();
+        pear1.fruitsPrice();
         pear1.printManufacturerInfo();
-        apricot1.priceFruit();
+        apricot1.fruitsPrice();
         apricot1.printManufacturerInfo();
 
     }

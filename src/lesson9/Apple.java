@@ -41,7 +41,7 @@ public class Apple extends Fruit {
     }
 
     @Override
-    public void priceFruit() {
+    public void fruitsPrice() {
         System.out.println("Вес яблока " + getWeight() + " грамм " + " стоит " + getPrice() +  " ru ");
     }
 }

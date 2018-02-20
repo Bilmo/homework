@@ -41,7 +41,7 @@ public class Pear extends Fruit {
     }
 
     @Override
-    public void priceFruit() {
+    public void fruitsPrice() {
         System.out.println("Вес груши " + getWeight() + " грамм " + " стоит " + getPrice() +  " ru ");
     }
 }

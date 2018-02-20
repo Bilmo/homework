@@ -41,7 +41,7 @@ public class Apricot extends Fruit {
     }
 
     @Override
-    public void priceFruit() {
+    public void fruitsPrice() {
         System.out.println("Вес абрикоса " + getWeight() + " грамм " + " стоит " + getPrice() +  " ru ");
     }
 }
