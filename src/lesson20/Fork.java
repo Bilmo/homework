@@ -1,0 +1,32 @@
+package lesson20;
+
+
+public class Fork {
+    private static int forkId = 0;
+    private final int id = ++forkId;
+    private boolean onTable;
+
+    public Fork() {
+        onTable = true;
+    }
+
+    public static int getForkId() {
+        return forkId;
+    }
+
+    public static void setForkId(int forkId) {
+        Fork.forkId = forkId;
+    }
+
+    public boolean isOnTable() {
+        return onTable;
+    }
+
+    public void setOnTable(boolean onTable) {
+        this.onTable = onTable;
+    }
+
+    public int getId() {
+        return id;
+    }
+}
