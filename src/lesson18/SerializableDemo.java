@@ -1,40 +1,39 @@
 package lesson18;
 
+import lesson8.Animal;
 import lesson8.Horse;
 
 import java.io.*;
 
 /**
- * Created by student on 2/25/2018.
+ * Created by student on 25.02.2018.
  */
 public class SerializableDemo {
 
-    public static final String HORSE_SER = "horse.ser";
+    public static final String FILE_NAME = "horse.ser";
 
     public static void main(String[] args) {
-        Horse horse = new Horse();
+        Horse horse = new Horse(new Halter("Red"), "h1"), horse1;
         serialize(horse);
-        Horse deserHorse = deserialize();
-        System.out.println(horse.equals(deserHorse));
+        horse1 = (Horse) deSerialize();
+        System.out.println(horse.equals(horse1));
     }
 
-    public static void serialize(Horse horse) {
-        try (ObjectOutputStream oi = new ObjectOutputStream(new FileOutputStream(HORSE_SER))) {
-            oi.writeObject(horse);
+    public static void serialize(Animal animal) {
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(FILE_NAME))) {
+            outputStream.writeObject(animal);
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
     }
 
-    public static Horse deserialize() {
-        Horse horse = null;
-        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(HORSE_SER))) {
-            horse = (Horse) inputStream.readObject();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+    public static Animal deSerialize() {
+        Animal animal = null;
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(FILE_NAME))) {
+            animal = (Horse) inputStream.readObject();
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println(e.getMessage());
         }
-        return horse;
+        return animal;
     }
 }

@@ -1,22 +1,21 @@
 package lesson7.com.company.professions;
 
-import lesson7.Person;
-
 public class Driver extends Person {
-    private double experience = 5.5;
-
-    public Driver(String fullName, int age, double experience) {
-        super(fullName, age);
-        this.experience = experience;
-    }
+    private int experience;
 
     public Driver() {
     }
 
-    @Override
-    public String toString() {
-        return "Driver{" +
-                "experience=" + experience +
-                "} " + super.toString();
+    public Driver(String firstName, String lastName, int age, int experience) {
+        super(firstName, lastName, age);
+        this.experience = experience;
+    }
+
+    public int getExperience() {
+        return experience;
+    }
+
+    public void setExperience(int experience) {
+        this.experience = experience;
     }
 }

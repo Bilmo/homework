@@ -18,8 +18,7 @@ public class Magazine implements Printable {
     public static void printMagazines(Printable[] printable) {
         for (Printable printable1 : printable) {
             if (printable1 instanceof Magazine) {
-                Magazine magazine1 = (Magazine) printable1;
-                magazine1.print();
+                printable1 .print();
             }
         }
     }

@@ -1,9 +1,9 @@
 package lesson8;
 
-import java.io.Serializable;
-import java.util.Objects;
 
-public class Animal implements Serializable, Comparable<Animal> {
+import java.io.Serializable;
+
+public abstract class Animal implements Serializable {
     private String food;
     private String location;
 
@@ -12,8 +12,21 @@ public class Animal implements Serializable, Comparable<Animal> {
         this.location = location;
     }
 
+    public static void main(String[] args) {
+        Animal[] animals = {new Cat("Кот кушает", "1"), new Dog("Пёс кушает", "l"),
+                new Horse("Конь кушает", "l3")};
+        Veterinarian veterinarian = new Veterinarian();
+        for (Animal a : animals) {
+            veterinarian.treatAnimal(a);
+        }
+    }
 
-    public Animal() {
+    public abstract void makeNoise();
+
+    public abstract void eat();
+
+    public void sleep() {
+        System.out.println("спит");
     }
 
     public String getFood() {
@@ -30,45 +43,5 @@ public class Animal implements Serializable, Comparable<Animal> {
 
     public void setLocation(String location) {
         this.location = location;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Animal animal = (Animal) o;
-        return Objects.equals(food, animal.food) &&
-                Objects.equals(location, animal.location);
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(food, location);
-    }
-
-    @Override
-    public String toString() {
-        return "Animal{" +
-                "food='" + food + '\'' +
-                ", location='" + location + '\'' +
-                '}';
-    }
-
-    public void makeNoise() {
-        System.out.println("Делает звук");
-    }
-
-    public void eat() {
-        System.out.println("Ест");
-    }
-
-    public void sleep() {
-        System.out.println("Спит");
-    }
-
-    @Override
-    public int compareTo(Animal o) {
-        return food.compareTo(o.food);
     }
 }

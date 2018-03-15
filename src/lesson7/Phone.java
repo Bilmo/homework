@@ -7,7 +7,7 @@ public class Phone {
     private double weight;
     private static int count;
 
-    public Phone(int n, String m, double w) {
+    public Phone (int n, String m, double w) {
         this(n, m);
         weight = w;
     }

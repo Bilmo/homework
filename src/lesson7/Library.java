@@ -1,75 +1,63 @@
 package lesson7;
 
+import java.util.Scanner;
+
 public class Library {
-    String fullName;
-    String numbTicket;
-    String faculty;
-    String birthDate;
-    String numbTelephone;
-
-    public Library(String fullName, String numbTicket, String faculty, String birthDate, String numbTelephone) {
-        this.fullName = fullName;
-        this.numbTicket = numbTicket;
-        this.faculty = faculty;
-        this.birthDate = birthDate;
-        this.numbTelephone = numbTelephone;
-    }
-
-    void takeBook(int quantity) {
-        System.out.println(this.fullName + " взял " + quantity + " книгу");
-    }
-
-    void takeBook(String... title) {
-        for (String tit : title) {
-            System.out.println(this.fullName + " взял " + tit);
-        }
-    }
-
-    void takeBook(Book... object) {
-        for (Book ob : object) {
-            System.out.println(this.fullName + " взял " + ob.name + " " + ob.author);
-        }
-    }
-
-    void returnBook(int quantity) {
-        System.out.println(this.fullName + " вернул " + quantity + " книгу");
-    }
-
-    void returnBook(String... title) {
-        for (String tit : title) {
-            System.out.println(this.fullName + " вернул " + tit);
-        }
-    }
-
-    void returnBook(Book... object) {
-        for (Book ob : object) {
-            System.out.println(this.fullName + " вернуд " + ob.name + " " + ob.author);
-        }
-    }
-
     public static void main(String[] args) {
-        Library[] user = new Library[3];
+        Reader readerCard1 = new Reader("James Bond", "007", "\tspecial agent",
+                "07.07.1983", "666999666");
+        Reader readerCard2 = new Reader("Lucky Hero", "963", "HeroAcademy",
+                "09.03.1639", "999666999");
+        Book book1 = new Book("The Dark Tower");
+        Book book2 = new Book("1922");
+        Book book3 = new Book("Some book");
+        Reader readerCard3 = fillInReaderCard();
+        Reader.arrayReaderLibraryCard(readerCard1.readerLibraryCardOut(), readerCard2.readerLibraryCardOut(),
+                readerCard3.readerLibraryCardOut());
+        takeBook(Book.getAmount());
+        takeBook(book1, book2, book3);
+        takeBook(book1.getTheTitleOfABook(), book2.getTheTitleOfABook(), book3.getTheTitleOfABook());
+        returnBook(Book.getAmount());
+        returnBook(book1, book2, book3);
+        returnBook(book1.getTheTitleOfABook(), book2.getTheTitleOfABook(), book3.getTheTitleOfABook());
+    }
 
-        user[0] = new Library("Алладин", "123a", "b1", "4.04.2003", "6987757");
-        user[1] = new Library("Сэм", "4231d", "b2", "07.20.2015", "23644");
-        user[2] = new Library("Боб", "21124c", "b3", "7.13.2236", "785166");
+    public static Reader fillInReaderCard() {
+        Scanner getInfo = new Scanner(System.in);
+        System.out.println("Как вас величают?:");
+        String fullName = getInfo.nextLine();
+        String ticketNumber = "666";
+        System.out.println("Введите ваш факультет:");
+        String speciality = getInfo.nextLine();
+        System.out.println("Введите дату рождения (число.месяц.год):");
+        String birthDate = getInfo.nextLine();
+        System.out.println("Введите ваш номер телефона:");
+        String phoneNumber = getInfo.nextLine();
+        Reader readerCard3 = new Reader(fullName, ticketNumber, speciality, birthDate, phoneNumber);
+        return readerCard3;
+    }
 
-        for (Library a : user) {
-            System.out.println(a.fullName + " " + a.numbTicket + " " + a.faculty + " " + a.birthDate + " " + a.numbTelephone);
-        }
+    public static void takeBook(int amount) {
+        System.out.println("Было взято " + amount + " книг");
+    }
 
-        System.out.println();
+    public static void takeBook(String... names) {
+        System.out.println("Было взято " + names.length + " книг");
+    }
 
-        user[0].takeBook(4);
-        user[1].takeBook("\"Привет\"", "\"Дорогой\"");
+    public static void takeBook(Book... books) {
+        System.out.println("Было взято " + books.length + " книг");
+    }
 
-        Book book = new Book("Любимый", "\"Жак\"");
-        user[2].takeBook(book);
+    public static void returnBook(int amount) {
+        System.out.println("Было возвращено " + amount + " книг");
+    }
 
-        System.out.println();
+    public static void returnBook(String... names) {
+        System.out.println("Было возвращено " + names.length + " книг");
+    }
 
-        user[0].returnBook(5);
-        user[1].returnBook("\"Почему\"", "\"нет?\"");
-        user[2].returnBook(book);
+    public static void returnBook(Book... books) {
+        System.out.println("Было возвращено " + books.length + " книг");
     }
 }

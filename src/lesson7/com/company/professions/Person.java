@@ -1,21 +1,53 @@
 package lesson7.com.company.professions;
 
-class Person {
-    String fullName;
+public class Person {
+    int age;
+    private String firstName;
+    private String lastName;
 
     public Person() {
-
     }
 
-    public Person(String fullInfo) {
-        this.fullName = fullInfo;
+    public Person(String firstName, String lastName, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
     }
 
-    public String getFullName() {
-        return fullName;
+    public static void main(String[] args) {
+        new Person().move();
+        new Person("Вася", "Пуп", 30).talk();
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void move() {
+        System.out.println(getFirstName() + " " + getLastName() + " Идет ");
+    }
+
+    public void talk() {
+        System.out.println(getFirstName() + " " + getLastName() + " Говорит ");
     }
 }

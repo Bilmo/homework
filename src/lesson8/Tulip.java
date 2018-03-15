@@ -1,19 +1,18 @@
 package lesson8;
 
-public class Carnation extends Flower {
 
+public class Tulip extends Flower {
     private static int cntr = 0;
 
-    public Carnation(String manufacturerCountry, int shelfLife, int price) {
+    public Tulip(String manufacturerCountry, int shelfLife, int price) {
         super(manufacturerCountry, shelfLife, price);
-        cntr++;
-    }
-
-    public String printInfo() {
-        return "Carnation";
     }
 
     public void printPriceOfFlowers() {
         System.out.println(getCost() * cntr);
+    }
+
+    public String printInfo() {
+        return "Tulip";
     }
 }

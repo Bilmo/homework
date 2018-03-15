@@ -1,64 +1,53 @@
 package lesson15;
 
-import lesson8.Animal;
+import lesson12.Person;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+
 
 public class Collection {
     public static void main(String[] args) {
-        List<Animal> arrayList = new ArrayList<>();
-        arrayList.add(new Animal("String1", "String2"));
-        arrayList.add(new Animal("String3", "String4"));
-        arrayList.add(new Animal());
-        Animal animal = new Animal();
-        arrayList.add(animal);
-
-        System.out.println("Размер коллекции : " + arrayList.size());
-        CollectionList(arrayList);
-
-        Animal animal1 = arrayList.get(1);
-        animal1.setFood("String5");
-        arrayList.set(1, animal1);
-
-        CollectionList(arrayList);
-
+        List<Person> arrayList = new ArrayList<>();
+        arrayList.add(new Person());
+        arrayList.add(new Person("Витя", 56));
+        Person p = new Person();
+        arrayList.add(p);
+        System.out.println("Размер коллекции: " + arrayList.size());
+        enumerateCollection(arrayList);
+        System.out.println("\n");
+        Person p1 = arrayList.get(1);
+        p1.setAge(18);
+        arrayList.set(1, p1);
+        enumerateCollection(arrayList);
+        System.out.println(" размер " + arrayList.size());
         arrayList.remove(arrayList.size() - 1);
-        System.out.println("Размер коллекции : " + arrayList.size());
-
-        arrayList.clear();
-        System.out.println("Размер коллекции : " + arrayList.size());
-
-        ArrayVariant1(arrayList);
-
-        ArrayVariant2(arrayList);
-
-        ArrayVariant3(arrayList);
-    }
-
-    private static void ArrayVariant3(List<Animal> arrayList) {
-        Animal[] animals2 = arrayList.toArray(new Animal[0]);
-        System.out.println(Arrays.toString(animals2));
-    }
-
-    private static void ArrayVariant2(List<Animal> arrayList) {
-        Animal[] animals = new Animal[arrayList.size()];
-        arrayList.toArray(animals);
-        System.out.println(Arrays.toString(animals));
-    }
-
-    private static void ArrayVariant1(List<Animal> arrayList) {
-        java.lang.Object[] objects = arrayList.toArray();
-        for (java.lang.Object object : objects) {
+        System.out.println(" размер " + arrayList.size());
+        System.out.println(arrayList);
+        Object[] objects = arrayList.toArray();
+        for (Object object : objects) {
             System.out.println(object);
+        }
+        System.out.println("\n");
+        Person[] persons = new Person[arrayList.size()];
+        arrayList.toArray(persons);
+        for (Person person : persons) {
+            System.out.println(person.getFullName());
+        }
+        recievePersonArray2(arrayList);
+        arrayList.clear();
+    }
+
+    public static void enumerateCollection(List<Person> arrayList) {
+        for (Person person : arrayList) {
+            System.out.println("Элемент " + person);
         }
     }
 
-    private static void CollectionList(List<Animal> arrayList) {
-        for (Animal anim : arrayList) {
-            System.out.println("Элемент: " + anim);
-
+    public static void recievePersonArray2(List<Person> arrayList) {
+        Person[] persons = arrayList.toArray(new Person[0]);
+        for (Person p : persons) {
+            System.out.println("Элемент2: " + p.getFullName());
         }
     }
 }

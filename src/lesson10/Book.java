@@ -21,8 +21,7 @@ public class Book implements Printable {
     public static void printBooks(Printable[] printable) {
         for (Printable printable1 : printable) {
             if (printable1 instanceof Book) {
-                Book book1 = (Book) printable1;
-                book1.print();
+                printable1 .print();
             }
         }
     }

@@ -1,42 +1,19 @@
 package lesson8;
 
-import java.util.Objects;
-
 public class Rose extends Flower {
-    private double weight;
+    private static int cntr = 0;
+    private boolean thorns;
 
-    public Rose(String country, int dateExp, double price, double weight) {
-        super(country, dateExp, price);
-        this.weight = weight;
+    public Rose(String manufacturerCountry, int shelfLife, int price, boolean thorns) {
+        super(manufacturerCountry, shelfLife, price);
+        this.thorns = thorns;
     }
 
-    public double getWeight() {
-        return weight;
+    public String printInfo() {
+        return "Rose";
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
-        Rose rose = (Rose) o;
-        return Double.compare(rose.weight, weight) == 0;
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(super.hashCode(), weight);
-    }
-
-    @Override
-    public String toString() {
-        return "Rose{" +
-                "weight=" + weight +
-                '}';
+    public void printPriceOfFlowers() {
+        System.out.println(getCost() * cntr);
     }
 }
